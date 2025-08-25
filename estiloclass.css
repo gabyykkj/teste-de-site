@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid 1px; */
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10000px;
+}
+
+.barra-superior {
+    display: flex;
+    /*  */
+    background-color:  transparent;
+    width: 100%;
+    height: 60px;
+    padding-left: 55px;
+}
+
+.itens-principal {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.barra-esquerda {
+    /*  */
+    width: 6%;
+    height: 100%;
+    display: flex;
+}
+
+.barra-direita {
+    border: solid 1px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itens-direita {
+    display: flex;
+    
+    width: 50%;
+    align-items: center;
+}
+
+.foto1-direita {
+    display: flex;
+    
+}
+
+.foto2-direita {
+    
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.letras-direita{
+    font-size: 25px;
+}
+
+.itens-esquerda {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.foto1-esquerda {
+    display: flex;
+}
+
+.foto1-esquerda img {
+    width: 40px;
+}
+
+.barra-direita-cima {
+    border-bottom: solid 1px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.espaco1 {
+    /* border: solid 1px; */
+    height: 100%;
+    width: 20px;
+}
+
+.barra-direita-cima-letras1 {
+    border-bottom:  solid 5px;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-direita-cima-letras2 {
+    height: 100%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-direita-cima-letras3 {
+    height: 100%;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mural {
+    /* border: solid 1px; */
+    height: 100%;
+    width: 70vw;
+    display: flex;
+    padding-top: 20px;
+}
+
+.mural-imagem {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    v
+}
+.mural img {
+    height: 100%;
+    width: 100%;
+}
