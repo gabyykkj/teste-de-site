@@ -133,13 +133,19 @@ body {
     width: 70vw;
     display: flex;
     padding-top: 20px;
+
 }
 
 .mural-imagem {
-    width: 100%;
-    height: 200px;
+    width: 1215px;
+    height: 316px;
     display: flex;
-    v
+    background-image: url(./fotos-class/Livros-removebg-preview\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #464777;
+    border-radius: 20px;
+    
 }
 .mural img {
     height: 100%;
